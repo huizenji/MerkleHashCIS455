@@ -2,6 +2,8 @@
 
 To run this program:
 
+*must have the hashscript file in same directory
+
 1) From terminal, run ./hash
 2) Enter name of directory you would like to hash (test directory: files)
 3) Top hash value will be printed
