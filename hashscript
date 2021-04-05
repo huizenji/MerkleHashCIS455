@@ -1,0 +1,3 @@
+echo "Enter directory name:"
+read dir
+find $dir -exec md5sum {} \; | sort -k2 | grep -vE "~" | cut -d" " -f1 | tee initialhash
